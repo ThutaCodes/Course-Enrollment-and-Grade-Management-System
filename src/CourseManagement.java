@@ -26,7 +26,9 @@ class CourseManagement {
     // Method to add a new course to the course list
     public void addCourse(String courseCode, String courseName, int maxCapacity, int creditValue) {
         Course newCourse = new Course(courseCode, courseName, maxCapacity, creditValue);
+        System.out.println(newCourse);
         courseList.add(newCourse);
+        
     }
 
     // Method to enroll a student in a course
